@@ -1,5 +1,5 @@
 ## Milestone Project 1: Tic Tac Toe Game
-A rudimentary tic tac toe game. The focus was on learning basic Python, including different data types, defining functions, and using while loops and conditional logic to play tic tac tow.
+A rudimentary tic tac toe game. The focus was on learning basic Python, including different data types, defining functions, and using while loops and conditional logic to play tic tac toe.
 
 ## Installation and Setup
 1. Install Python for your operating system: https://realpython.com/installing-python/
