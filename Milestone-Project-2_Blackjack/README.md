@@ -1,4 +1,4 @@
-## Milestone Project 2: Black
+## Milestone Project 2: Blackjack
 A rudimentary Blackjack game. The focus was on continuing basic Python, including classes, to play Blackjack.
 
 ## Installation and Setup
