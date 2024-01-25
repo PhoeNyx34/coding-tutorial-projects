@@ -3,7 +3,7 @@ A rudimentary name generator. The focus was on learning how to save user inputs 
 
 ## Installation and Setup
 1. Install Python for your operating system: https://realpython.com/installing-python/
-2. Download the repo folder for 100-Day-Python_Band-Name-Generator
+2. Download the repo folder for 100-Days-Python_Band-Name-Generator
 3. Save folder to desired drive location
 4. Navigate to the folder in your terminal and run `python band-name-generator.py` in your command line
 
