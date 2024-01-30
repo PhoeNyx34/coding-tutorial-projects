@@ -6,3 +6,4 @@ This repo is a collection of projects that stem from various online coding cours
 2. Milestone Project 2: Blackjack
 3. 100 Days of Python: Band Name Generator
 4. 100 Days of Python: Tip Calculator
+5. 100 Days of Python: Treasure Island 
