@@ -9,6 +9,7 @@ A rudimentary hangman game. The focus was on if/else/while statements and for lo
 
 ## To Do
 - add catch for non-letter inputs
+- add catch for multi-character inputs
 - expand the word options
 
 ## Source Material

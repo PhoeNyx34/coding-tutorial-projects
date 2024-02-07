@@ -1,14 +1,14 @@
 import random
+from hangman_words import word_list
+import hangman_art
 
-word_list = ['gravy','subtle','confusion','light','space','twinkle','simple','strategy','crave','proud']
 logged_guesses = []
-incorrect_guesses = 0
+lives = 6
 
-print("Welcome to Hangman!\nOne moment while I generate a word...\n")
+print(f"Welcome to Hangman!{hangman_art.logo}\n\nOne moment while I generate a word...\n")
 
 # randomly choose a word from the list
-word_index = random.randint(0,len(word_list)-1)
-chosen_word = word_list[word_index]
+chosen_word = random.choice(word_list)
 
 # split word into array of letters
 answer = []
@@ -25,9 +25,10 @@ print(f"All set! I'm thinking of the word: {s.join(correct_guess)}")
 game_on = True
 
 while game_on:
-    while incorrect_guesses < 6:
+    while lives > 0:
         if s.join(correct_guess) != s.join(answer):
-            print(f"Your guess: {s.join(correct_guess)}")
+            print(f"Current letters: {s.join(correct_guess)}")
+            print(hangman_art.stages[lives])
 
         # ask the user to guess a letter
             guess = input("Guess a letter: ").lower()
@@ -46,14 +47,15 @@ while game_on:
                     letter_match.append('false')
             
             if not 'match' in letter_match:
-                print("No match")
-                incorrect_guesses +=1
+                print("No match\n\n")
+                lives -=1
         else:
             print(f"Congratulations! You've guessed the correct word: {chosen_word}") 
             game_on = False
             break
     
-    if incorrect_guesses == 6 and s.join(correct_guess) != s.join(answer):
+    if lives == 0 and s.join(correct_guess) != s.join(answer):
+        print(hangman_art.stages[0])
         print("Out of tries. Game over!")
         break
 
