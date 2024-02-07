@@ -1,4 +1,4 @@
-## 100 Days of Python: Hangmad
+## 100 Days of Python: Hangman
 A rudimentary hangman game. The focus was on if/else/while statements and for loops to generate a common game.
 
 ## Installation and Setup
