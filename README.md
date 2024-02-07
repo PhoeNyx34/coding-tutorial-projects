@@ -10,3 +10,4 @@ This repo is a collection of projects that stem from various online coding cours
 6. 100 Days of Python: Rock, Paper, Scissors
 7. 100 Days of Python: Password Generator
 8. 100 Days of Python: Hangman
+9. 100 Days of Python: Caesar Cipher
