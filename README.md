@@ -11,3 +11,4 @@ This repo is a collection of projects that stem from various online coding cours
 7. 100 Days of Python: Password Generator
 8. 100 Days of Python: Hangman
 9. 100 Days of Python: Caesar Cipher
+10. 100 Days of Python: Silent Auction
